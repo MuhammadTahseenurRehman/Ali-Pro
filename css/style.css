@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.pro-header li p{
+    margin: 0px;
+}
+.pro-header li a.nav-link {
+    line-height: 12px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.pro-header li a.nav-link .pro-menu-icon{
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+}
+.pro-header li:hover a.nav-link .pro-menu-icon.dashboard-icon,
+.pro-header li.active a.nav-link .pro-menu-icon.dashboard-icon{
+    background-image: url(../images/dashboard_normal_icon.png);
+}
+.pro-header li a.nav-link .pro-menu-icon.dashboard-icon{
+    background-image: url(../images/dashboard_selected_icon.png);
+}
+.pro-header li a.nav-link .pro-menu-icon.matches-icon{
+    background-image: url(../images/matches_normal_icon.png);
+}
+.pro-header li:hover a.nav-link .pro-menu-icon.matches-icon{
+    background-image: url(../images/matches_selected_icon.png);
+}
+.pro-header li:hover a.nav-link .pro-menu-icon.community-icon{
+    background-image: url(../images/community_normal_icon.png);
+}
+.pro-header li a.nav-link .pro-menu-icon.community-icon{
+    background-image: url(../images/community_selected_icon.png);
+}
+.pro-header li:hover a.nav-link .pro-menu-icon.sessions-icon{
+    background-image: url(../images/session_normal_icon.png);
+}
+.pro-header li a.nav-link .pro-menu-icon.sessions-icon{
+    background-image: url(../images/session_selected_icon.png);
+}
+.pro-header li:hover a.nav-link .pro-menu-icon.manage-icon{
+    background-image: url(../images/calendar_normal_icon.png);
+}
+.pro-header li a.nav-link .pro-menu-icon.manage-icon{
+    background-image: url(../images/calendar_selected_icon.png);
+}
+.pro-header li:hover .pro-menu-text{
+    color: #fff;
+}
+.pro-user-profile-box {
+    position: relative;
+    color: #ffffff80;
+    margin-left: 30px;
+    padding: 0px 10px 0px 20px;
+    max-width: 19%;
+    width: auto;
+}
+.pro-user-profile-box:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 10%;
+    height: 80%;
+    width: 1px;
+    background-color: #ffffff80;
+    display: block;
+}
+.pro-user-profile-box .pro-user-profile-box-inner {
+    align-items: center;
+}
+.pro-user-profile-box .pro-user-profile-info {
+    margin-right: 10px;
+}
+
+.pro-user-profile-box .pro-user-profile-info  .pro-user-name {
+    color: #fff;
+    font-weight: 500;
+    line-height: 12px;
+}
+.pro-user-profile-box .pro-user-profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.pro-user-profile-box .pro-user-profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
